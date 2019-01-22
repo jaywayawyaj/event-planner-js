@@ -1,0 +1,19 @@
+{
+  "name": "event-planner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "square1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaywayawyaj/event-planner-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaywayawyaj/event-planner-js/issues"
+  },
+  "homepage": "https://github.com/jaywayawyaj/event-planner-js#readme"
+}
