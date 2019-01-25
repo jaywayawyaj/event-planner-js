@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MegaEventsYo!</title>
+	<script type="text/javascript" src="src/event.js"></script>
+	<script type="text/javascript" src="src/eventCalendar.js"></script>
+	<script type="text/javascript" src="interface.js"></script>
+	<script type="text/javascript" src="weather.js"></script>
+<script src='https://use.fontawesome.com/releases/v5.0.13/js/all.js'></script>
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+	<link rel="stylesheet" href="public/style.css"> -->
+
+</head>
+
+<body>
+  <textarea name="description" id="input-desc" rows="4" cols="40"></textarea>
+  <br>
+  <br>
+  <input type="datetime-local" name="date" id="input-date" value="">
+  <br>
+  <br>
+  <button type="button" id="event-submit-button" name="Submit">Submit</button>
+
+  <div id="eventListing">
+  </div>
+
+
+	<div class="container">
+		<header class="header">
+			<div class="search">
+				<input type="text" placeholder="Enter city" id="city-search">
+				<a id="search-btn" href="#"><i class="fas fa-search"></i></a>
+			</div>
+		</header>
+
+		<main id="main">
+
+			<div class="city-icon">
+				<div class="city-icon-holder">
+					<div id="city-name"></div>
+					<img src="" alt="" id="icon">
+						</div>
+					</div>
+
+					<div class="temperature">
+						<div id="temp"></div>
+					</div>
+
+					<div class="humidity">
+						<div id="humidity-div"></div>
+					</div>
+				</div>
+
+		</main>
+
+	</div>
+</body>
+</html>
